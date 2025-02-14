@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/fitness</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <!-- Hibernate configurations -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+
+        <!-- Mapping classes -->
+        <mapping class="com.fpojo.Fpojo"/>
+         <mapping class="com.fpojo.ContactUsPojo"/>
+        <mapping class="training.pack.Tpojo.AddDetailsPojo"/>
+        <mapping class="training.pack.Tpojo.BookschedulePojo"/>
+        <mapping class="training.pack.Tpojo.ContactPojo"/>
+        <mapping class="training.pack.Tpojo.VideoPojo"/>
+        <mapping class="training.pack.Tpojo.UploadedVideo"/>
+        <mapping class="training.pack.Tpojo.ViewProfilePojo"/>
+        <mapping class="training.pack.Tpojo.FitnessForm"/>
+        <mapping class="User.pack.Pojo.Bookings"/>
+     	<mapping class="User.pack.Pojo.SaveProfilePojo"/>
+     	<mapping class="User.pack.Pojo.CartPojo"/>
+     	<mapping class="User.pack.Pojo.OfferCart"/>
+     	<mapping class="training.pack.Tpojo.NewUpdatePojo"/>
+     	<mapping class="training.pack.Tpojo.ProductPojo"/>
+     	<mapping class="training.pack.Tpojo.HealthPojo"/>
+     	<mapping class="training.pack.Tpojo.FreeClassPojo"/>
+     	<mapping class="User.pack.Pojo.UserDetails"/>
+     	<mapping class="User.pack.Pojo.ContactUser"/>
+     	<mapping class="User.pack.Pojo.ProductCart"/>
+     	<mapping class="Admin.pack.AdminPojo"/>
+     	<mapping class="Admin.pack.AdminDetails"/>
+     	<mapping class="training.pack.Tpojo.razorpaypojo"/>
+     	<mapping class="User.pack.Pojo.ProductPayment"/>
+     	<mapping class="User.pack.Pojo.OfferPayment"/>
+     	<mapping class="User.pack.Pojo.BookPayment"/>
+    </session-factory>
+</hibernate-configuration>

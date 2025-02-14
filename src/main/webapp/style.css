@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+.custom-navbar {
+    background-color: #4CAF50; 
+}
+
+.form-container {
+    max-width: 400px; 
+    margin: 20px auto; 
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+ .custom-navbar {
+      background-color: #4CAF50; 
+      padding: 15px; 
+    }
+
+    .navbar-brand {
+      font-size: 2.0rem; 
+      
+    }
+
+    .navbar-nav .nav-link {
+      color: white !important; 
+      font-size: 1.3rem; 
+      padding: 10px 20px; 
+    }
+     .login-container {
+      margin-top: 50px;
+      padding: 30px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .side-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .form-control {
+      border-radius: 5px;
+    }
+
+    .login-form {
+      padding: 20px;
+    }
+    /* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    color: #333; /* Dark grey text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    color: #2e8b57; /* Light Green color for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #333; /* Dark grey for FAQ question text */
+    margin-top: 15px;
+}
+
+/* Form Styles */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="email"], input[type="text"], textarea {
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button, .btn {
+    background-color: #2e8b57; /* Light Green button color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #256c43; /* Darker green on hover */
+}
+
+.btn-light {
+    background-color: #f8f9fa; /* Light grey background for 'Notification' button */
+    color: #333; /* Dark grey text */
+    border: 1px solid #ccc;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea; /* Slightly darker grey on hover */
+}
+
+/* List Styles */
+ul.list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 5px;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Light grey hover effect */
+}
+
+/* FAQ Section */
+.faq {
+    margin-bottom: 20px;
+}
+
+/* Form Container for Contact Page */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+form .btn-primary {
+    background-color: #2e8b57;
+    border: none;
+}
+
+/* Footer or Bottom Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.9rem;
+}
+    
+   
+    

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+<session-factory>
+<property name="hibernate.hbm2ddl.auto">update</property>
+<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+<property name="hibernate.connection.password">password</property>
+<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/fitness</property>
+<property name="hibernate.connection.username">root</property>
+<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+ <mapping class="training.pack.Tpojo.AddDetailsPojo"/>
+ <mapping class="training.pack.Tpojo.BookschedulePojo"/>
+ <mapping class="com.fpojo.Fpojo"/> 
+</session-factory>
+</hibernate-configuration>
