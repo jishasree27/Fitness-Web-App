@@ -286,7 +286,7 @@ table tbody tr:hover {
                     <th>Trainer Name</th>
                     <th>Amount</th>
                     <th>Status</th>
-                    <th>Action</th>
+                   
                 </tr>
             </thead>
             <tbody>
@@ -309,7 +309,7 @@ table tbody tr:hover {
                     <td><%= sp.getTrainerName() %></td>
                     <td><%= sp.getPayment() %></td>
                     <td><%= "Added to cart" %></td>
-                    <td><button>Buy Now</button></td>
+                    
                 </tr>
             <%
                     }
@@ -367,7 +367,7 @@ table tbody tr:hover {
                     <th>Original Amount</th>
                     <th>Discounted Amount</th>
                     <th>Status</th>
-                    <th>Action</th>
+                  
                 </tr>
             </thead>
             <tbody>
@@ -400,7 +400,7 @@ table tbody tr:hover {
                     <td><%= originalAmount %></td>
                     <td><%= String.format("%.2f", discountedAmount) %></td>
                     <td><%= "Added to cart" %></td>
-                    <td><button>Buy Now</button></td>
+                   
                 </tr>
             <%
                         } catch (NumberFormatException e) {

@@ -31,7 +31,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .side-image {
-            max-height: 500px;
+            max-height: 480px;
             object-fit: cover;
             border-radius: 10px;
             margin-left:100px;
@@ -78,10 +78,10 @@
     <div class="container-hello">
         <div class="row align-items-center">
             <!-- Side Image -->
-            <div class="col-lg-6 col-md-7 d-none d-md-block">
-                <img src="https://scontent.fcjb3-4.fna.fbcdn.net/v/t39.30808-6/368398800_619492070270776_5340188825398431368_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=nuvg9Q_qRHgQ7kNvgFBiEF-&_nc_oc=Adj7Lz-d65LiWRaYOpDS5z9__25XwJLhsUaZggdg67zXZN3CW8JB-S5zq0Wlydnl5aBc4D-1GYHPEfpLlQu3HCdW&_nc_zt=23&_nc_ht=scontent.fcjb3-4.fna&_nc_gid=ABjzMn7ypUr_AjZ-6NKNifC&oh=00_AYBR8sqQW2rLUTbnp4DtawbuWmcw9VTo_AnekkTHQaVCBw&oe=67AFE7B4" 
-                     alt="Side Image" class="side-image img-fluid"> 
-            </div>
+          <div class="col-lg-6 col-md-7 d-none d-md-block d-flex justify-content-end">
+    <img src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/63f6f835e7a9f2001d079093.avif" alt="side Image" class="side-image img-fluid">
+</div>
+
             
             <!-- Signup Form -->
             <div class="col-lg-4 col-md-5">
