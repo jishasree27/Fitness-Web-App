@@ -114,10 +114,10 @@
       <div class="footer-section">
         <h3>Quick Links</h3>
         <ul>
-          <li><a href="#workouts">Workouts</a></li>
-          <li><a href="#nutrition">Nutrition</a></li>
-          <li><a href="#tips">Health Tips</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="products.jsp">Products</a></li>
+          <li><a href="newupdates.jsp">Nutrition</a></li>
+          <li><a href="HealthFitness.jsp">Health Tips</a></li>
+          <li><a href="usercontact.jsp">Contact Us</a></li>
         </ul>
       </div>
 
